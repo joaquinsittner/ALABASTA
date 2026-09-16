@@ -1,59 +1,106 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Alabasta | Contacto</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-<a href="mailto:contacto@reinoalabasta.com">
-    contacto@reinoalabasta.com
-</a><br>
-<a href="tel:+5491155552020">
-    numero del reino:+54 9 11 5555-2020
-</a><br>
-<a href="tel:+5491155552525">
-    guardia real:+54 9 11 5555-2525
-</a>
-<h3>Horario de atención</h3>
-
-<ul>
-    <li>Lunes a viernes: 08:00 - 18:00</li>
-    <li>Sábados: 09:00 - 13:00</li>
-    <li>Domingos: Cerrado</li>
-</ul>
-<h3>Formulario de contacto</h3>
-
-<form>
-    <label for="nombre">Nombre:</label>
-    <input type="text" id="nombre" name="nombre">
-
-    <br><br>
-
-    <label for="email">Correo electrónico:</label>
-    <input type="email" id="email" name="email">
-
-    <br><br>
-
-    <label for="motivo">Motivo de contacto:</label>
-    <select id="motivo" name="motivo">
-        <option value="turismo">Turismo</option>
-        <option value="palacio">Palacio Real</option>
-        <option value="guardia">Guardia Real</option>
-        <option value="informacion">Información general</option>
-    </select>
-
-    <br><br>
-
-    <label for="mensaje">Mensaje:</label>
-    <br>
-    <textarea id="mensaje" name="mensaje" rows="5" cols="40"></textarea>
-
-    <br><br>
-
-    <button type="submit">Enviar mensaje</button>
-</form>
-
-  
+    <header class="header">
+        <div class="container nav-wrap">
+            <a class="brand" href="index.html"><img src="img/logo-alabasta.png"
+                    alt="Logo de Alabasta"><b>ALABASTA<span>.</span></b><small>Turismo</small></a>
+            <button id="menuBtn" class="menu-btn" aria-label="Abrir menú">☰</button>
+            <nav id="mainNav" class="main-nav">
+                <a class="nav-link" href="index.html">Inicio</a>
+                <div class="nav-group">
+                    <button class="nav-link nav-drop" type="button">Explorar <span>⌄</span></button>
+                    <div class="mega-menu">
+                        <div class="mega-intro">
+                            <span class="mega-kicker">DESCUBRÍ ALABASTA</span>
+                            <h3>Todo el reino,<br>en un solo lugar.</h3>
+                            <p>Historia, paisajes, experiencias y recomendaciones para armar tu recorrido.</p>
+                            <a href="lugares.html">Ver todos los lugares →</a>
+                        </div>
+                        <a class="mega-card mega-ciudad" href="ciudad.html"><span>CIUDAD</span><strong>Historia y
+                                cultura</strong><small>Conocé la identidad de Alabasta</small></a>
+                        <a class="mega-card mega-lugares"
+                            href="lugares.html"><span>LUGARES</span><strong>Imperdibles</strong><small>Oasis, desierto y
+                                arquitectura</small></a>
+                        <a class="mega-card mega-aventura"
+                            href="lugares.html#actividades"><span>EXPERIENCIAS</span><strong>Qué
+                                hacer</strong><small>Aventura, naturaleza y gastronomía</small></a>
+                    </div>
+                </div>
+                <a class="nav-link" href="ciudad.html">Ciudad</a>
+                <a class="nav-link" href="lugares.html">Lugares</a>
+                <div class="nav-group compact-group">
+                    <button class="nav-link nav-drop" type="button">Planificá <span>⌄</span></button>
+                    <div class="mini-menu">
+                        <a href="index.html#info"><b>Información útil</b><small>Clima, qué llevar y
+                                orientación</small></a>
+                        <a href="contacto.html"><b>Consultas</b><small>Contactanos para saber más</small></a>
+                    </div>
+                </div>
+                <a class="nav-link active" href="contacto.html">Contacto</a>
+                <a class="pill" href="lugares.html">Empezar a explorar</a>
+            </nav>
+        </div>
+    </header>
+    <section class="page page-contact">
+        <div class="container page-grid">
+            <div><span class="eyebrow">ESTAMOS PARA AYUDARTE</span>
+                <h1>Contacto<br><em>Alabasta.</em></h1>
+                <p>¿Querés saber más sobre el destino? Dejá tu consulta y prepará tu experiencia.</p>
+            </div>
+            <div class="page-photo contact-photo" role="img"
+                aria-label="Vista turística de Alabasta con el logo de la ciudad"></div>
+        </div>
+    </section>
+    <section class="section">
+        <div class="container contact-grid">
+            <div><span class="eyebrow">CONSULTAS</span>
+                <h2>Planificá tu<br><em>experiencia.</em></h2>
+                <p class="lead">Escribinos para conocer más sobre Alabasta.</p>
+                <div class="contact-box"><b>✉ Email</b>
+                    <p>info@alabasta.tur.ar</p>
+                </div>
+                <div class="contact-box"><b>⌖ Información turística</b>
+                    <p>Consultas sobre lugares, actividades y recorridos.</p>
+                </div>
+            </div>
+            <form id="contactForm" class="form"><label>Nombre<input required
+                        placeholder="Tu nombre"></label><label>Email<input type="email" required
+                        placeholder="tu@email.com"></label><label>Asunto<select>
+                        <option>Información turística</option>
+                        <option>Actividades</option>
+                        <option>Historia</option>
+                        <option>Otra consulta</option>
+                    </select></label><label>Mensaje<textarea rows="6" required
+                        placeholder="Escribí tu consulta..."></textarea></label><button class="btn dark">Enviar consulta
+                    →</button></form>
+        </div>
+    </section>
+    <footer>
+        <div class="container footer-grid">
+            <div><a class="brand footer-brand" href="index.html"><img src="img/logo-alabasta.png"
+                        alt="Logo de Alabasta"><b>ALABASTA<span>.</span></b></a>
+                <p>Un destino de arena, oasis, cultura y aventura.</p>
+            </div>
+            <div><b>Explorá</b><a href="index.html">Inicio</a><a href="ciudad.html">Ciudad</a><a
+                    href="lugares.html">Lugares y actividades</a></div>
+            <div><b>Planificá</b><a href="index.html#info">Información útil</a><a href="contacto.html">Contacto</a><a
+                    href="contacto.html">Consultas</a></div>
+            <div><b>Seguinos</b><a href="#">Instagram</a><a href="#">Facebook</a><a href="#">X / Twitter</a></div>
+        </div>
+        <div class="container bottom">© 2026 Alabasta Turismo · Proyecto ficticio inspirado en One Piece</div>
+    </footer><button id="topBtn">↑</button>
+    <div id="toast"></div>
+    <script src="script.js"></script>
 </body>
+
 </html>
+
