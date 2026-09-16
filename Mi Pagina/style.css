@@ -1,0 +1,169 @@
+html, body {
+font-family: Arial, Helvetica, sans-serif;
+height: 100%;
+width: 100%;
+margin: 0;
+}
+
+/* ===== INICIO ===== */
+
+body {
+background: url(fondo.jpg) center center no-repeat;
+background-size: cover;
+}
+
+.contenedor {
+text-align: center;
+padding: 20px;
+background-color: #FFFBE6;
+border-radius: 10px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+}
+
+.boton-redireccion {
+background-color: #FF0000;
+color: white;
+padding: 10px 20px;
+display: inline-block;
+margin-top: 20px;
+border-radius: 5px;
+cursor: pointer;
+text-decoration: none;
+}
+
+.boton-redireccion:hover {
+background-color: #ff4f3b;
+}
+
+nav {
+position: absolute;
+top: 20px;
+right: 20px;
+}
+
+nav a {
+color: black;
+text-decoration: none;
+margin-left: 20px;
+}
+
+/* ===== PAGINA DE LUGARES ===== */
+
+.pagina-lugares {
+
+width: 70vw;
+max-width: none;
+margin: 40px auto;
+padding: 30px;
+background-color: #a46980;
+border-radius: 10px;
+box-sizing: border-box;
+}
+
+.pagina-lugares .imagen-portada {
+    float: none;
+    width: 100%;
+    margin: 100px 0;
+    text-align: center;
+}
+
+.pagina-lugares .imagen-portada img {
+    width: 100%;
+    max-width: 1100px;
+    height: 700px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.pagina-lugares h1 {
+    text-align: center;
+    font-size: 80px;
+    margin-top: 10px;
+    margin-bottom: 70px;
+}
+
+.pagina-lugares h2 {
+margin-top: 60px;
+font-size: 40px;
+}
+
+.pagina-lugares h3 {
+    font-size: 27px;
+}
+
+.pagina-lugares p {
+line-height: 2.8;
+}
+
+.pagina-lugares li {
+    font-size: 18px;
+    line-height: 2.4;
+}
+
+.pagina-lugares ul {
+    padding-left: 80px;
+}
+
+/* ===== IMAGENES ===== */
+
+.pagina-lugares figure {
+    float: right;
+    width: 400px;
+    margin: 10px 0 20px 30px;
+    text-align: center;
+}
+
+.pagina-lugares figure img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.pagina-lugares figcaption {
+    margin-top: 8px;
+    font-size: 16px;
+    font-style: italic;
+}
+
+/* ===== IMAGENES DECORATIVAS DE LOS COSTADOS ===== */
+
+.pagina-lugares::before {
+    content: "";
+    position: fixed;
+    left: 0;
+    top: 0;
+
+    width: 15vw;
+    height: 100vh;
+
+    background-image: url("imagenes/Desierto de Alabasta.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    z-index: -1;
+}
+
+.pagina-lugares::after {
+    content: "";
+    position: fixed;
+    right: 0;
+    top: 0;
+
+    width: 15vw;
+    height: 100vh;
+
+    background-image: url("imagenes/Saga de Alabasta.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    z-index: -1;
+}
+body {
+    background-image: url("imagenes/Fondo.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+}
