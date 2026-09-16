@@ -1,229 +1,162 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Alabasta · Historia</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Alabasta | Historia</title>
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-
-  <header class="portada">
-    <div class="portada-sol" aria-hidden="true"></div>
-    <div class="portada-duna" aria-hidden="true"></div>
-    <div class="portada-contenido">
-      <p class="antetitulo">Un reino de arena en el Grand Line</p>
-      <h1>Historia de<br><span>Alabasta</span></h1>
-      <p class="portada-texto">Una nación desértica gobernada por la misma dinastía desde hace
-        generaciones, dividida en dos por un único río y sostenida por un puñado de ciudades
-        que crecieron alrededor de sus oasis.</p>
+  <header class="header">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html"><img src="img/logo-alabasta.png"
+          alt="Logo de Alabasta"><b>ALABASTA<span>.</span></b><small>Turismo</small></a>
+      <button id="menuBtn" class="menu-btn" aria-label="Abrir menú">☰</button>
+      <nav id="mainNav" class="main-nav">
+        <a class="nav-link" href="index.html">Inicio</a>
+        <div class="nav-group">
+          <button class="nav-link nav-drop" type="button">Explorar <span>⌄</span></button>
+          <div class="mega-menu">
+            <div class="mega-intro"><span class="mega-kicker">DESCUBRÍ ALABASTA</span>
+              <h3>Una ciudad,<br>muchos paisajes.</h3>
+              <p>Historia, arquitectura, naturaleza y experiencias reunidas en un solo destino.</p><a
+                href="lugares.html">Ver todos los lugares →</a>
+            </div>
+            <a class="mega-card mega-ciudad" href="ciudad.html"><span>HISTORIA</span><strong>Identidad de
+                Alabasta</strong><small>Desierto, agua, comercio y cultura</small></a>
+            <a class="mega-card mega-lugares"
+              href="lugares.html"><span>LUGARES</span><strong>Imperdibles</strong><small>Palacio, puerto, oasis y
+                río</small></a>
+            <a class="mega-card mega-aventura" href="lugares.html#actividades"><span>EXPERIENCIAS</span><strong>Qué
+                hacer</strong><small>Recorridos, gastronomía y naturaleza</small></a>
+          </div>
+        </div>
+        <a class="nav-link active" href="ciudad.html">Historia</a>
+        <a class="nav-link" href="lugares.html">Lugares</a>
+        <div class="nav-group compact-group">
+          <button class="nav-link nav-drop" type="button">Planificá <span>⌄</span></button>
+          <div class="mini-menu"><a href="index.html#info"><b>Información útil</b><small>Clima, qué llevar y
+                orientación</small></a><a href="contacto.html"><b>Consultas</b><small>Contactanos para saber
+                más</small></a></div>
+        </div>
+        <a class="nav-link" href="contacto.html">Contacto</a>
+        <a class="pill" href="lugares.html">Empezar a explorar</a>
+      </nav>
     </div>
-
-    <nav class="navegacion-secciones" aria-label="Secciones de la página">
-      <a href="#historia">Historia</a>
-      <a href="#caracteristicas">Características</a>
-      <a href="#zonas">Zonas</a>
-      <a href="#costumbres">Costumbres</a>
-    </nav>
   </header>
 
-  <main>
-
-    <section id="historia" class="seccion-introduccion">
-      <h2>Historia de Alabasta</h2>
-      <p>Alabasta es un antiguo reino desértico situado en la Isla Arenosa, dentro del Grand
-        Line. Existe como reino consolidado desde hace más de ochocientos años y fue una de las
-        veinte dinastías que, tras una alianza entre distintos reinos del mundo, fundaron el
-        Gobierno Mundial. A diferencia de las otras diecinueve familias, la dinastía Nefertari
-        eligió quedarse en su territorio en lugar de trasladarse a la capital de ese nuevo
-        gobierno, y desde entonces gobierna Alabasta junto a su gente, siendo vista como
-        protectora del pueblo y guardiana de secretos muy antiguos.</p>
-
-      <ul class="linea-tiempo">
-        <li class="linea-tiempo-item">
-          <span class="linea-tiempo-anio">Hace más de 800 años</span>
-          <p>Alabasta ya existe como reino consolidado y se convierte en una de las veinte
-            dinastías fundadoras del Gobierno Mundial.</p>
-        </li>
-        <li class="linea-tiempo-item">
-          <span class="linea-tiempo-anio">La fundación del Gobierno Mundial</span>
-          <p>Cuando el resto de las familias fundadoras se traslada a vivir a la capital del
-            nuevo gobierno, la dinastía Nefertari es la única que decide permanecer en su
-            propio territorio para seguir gobernando junto a su gente.</p>
-        </li>
-        <li class="linea-tiempo-item">
-          <span class="linea-tiempo-anio">Un secreto bajo la arena</span>
-          <p>En la Tumba de los Reyes de Alubarna queda oculto un poneglifo que revela la
-            ubicación de un arma legendaria del pasado, un secreto que la familia real custodia
-            en silencio durante siglos.</p>
-        </li>
-        <li class="linea-tiempo-item">
-          <span class="linea-tiempo-anio">Años de sequía</span>
-          <p>Un largo período sin lluvias golpea al reino, seca oasis enteros y deja ciudades
-            como Erumalu reducidas a ruinas, mientras otras como Yuba luchan por sobrevivir.</p>
-        </li>
-        <li class="linea-tiempo-item">
-          <span class="linea-tiempo-anio">La crisis y la reconstrucción</span>
-          <p>Una organización criminal manipula la escasez de agua para desatar un conflicto
-            interno en Alabasta. Superada la crisis, el reino inicia una etapa de reconstrucción
-            que le permite recuperar la estabilidad.</p>
-        </li>
-      </ul>
-    </section>
-
-    <section id="caracteristicas" class="seccion-introduccion">
-      <h2>Características principales</h2>
-      <p>El territorio de Alabasta está cruzado de norte a sur por el río Sandora, que separa
-        al país en dos mitades y determina dónde puede levantarse cada ciudad. Con pocos oasis
-        disponibles, cada asentamiento importante creció alrededor de una fuente de agua,
-        mientras que las zonas más áridas del desierto quedaron reservadas al paso de caravanas
-        y viajeros. El calor intenso y la escasez de agua marcaron la forma de vida de su gente,
-        que aprendió a organizarse alrededor de cada oasis y cada ruta comercial.</p>
-
-      <dl class="datos-clave">
-        <dt>Nombre oficial</dt>
-        <dd>Reino de Alabasta</dd>
-
-        <dt>Fundación</dt>
-        <dd>????</dd>
-
-        <dt>Capital</dt>
-        <dd>Alubarna</dd>
-
-        <dt>Población</dt>
-        <dd>?????</dd>
-
-        <dt>Clima</dt>
-        <dd>Cálido y árido, con oasis dispersos y sequías prolongadas</dd>
-
-        <dt>Gentilicio</dt>
-        <dd>Alabastano/a</dd>
-
-        <dt>Idioma</dt>
-        <dd>????</dd>
-
-        <dt>Moneda</dt>
-        <dd>Berry</dd>
-
-        <dt>Gobierno</dt>
-        <dd>Monarquía de la dinastía Nefertari</dd>
-      </dl>
-    </section>
-
-    <section id="zonas" class="seccion-zonas">
-      <h2>Zonas de Alabasta</h2>
-
-      <div class="tarjetas-grid">
-
-        <article class="tarjeta">
-          <img class="tarjeta-imagen placeholder" src="placeholder.svg" alt="Alubarna">
-          <div class="tarjeta-contenido">
-            <h3>Alubarna, la capital</h3>
-            <p>Construida sobre una gran formación rocosa y rodeada de escalinatas talladas en
-              piedra, Alubarna es la sede del poder real. Allí se levantan el Palacio Real, una
-              torre de reloj monumental y, en las afueras, la Tumba Real donde descansan los
-              antiguos monarcas del reino.</p>
-          </div>
-        </article>
-
-        <article class="tarjeta">
-          <img class="tarjeta-imagen placeholder" src="placeholder.svg" alt="Nanohana">
-          <div class="tarjeta-contenido">
-            <h3>Nanohana, puerta al mar</h3>
-            <p>Situada en la costa, Nanohana es el principal puerto del reino y el punto de
-              entrada para la mayoría de los viajeros que llegan por mar. Por sus muelles y
-              mercados pasa buena parte del comercio de importación y exportación del país.</p>
-          </div>
-        </article>
-
-        <article class="tarjeta">
-          <img class="tarjeta-imagen placeholder" src="placeholder.svg" alt="Rainbase">
-          <div class="tarjeta-contenido">
-            <h3>Rainbase, ciudad de los sueños</h3>
-            <p>Pensada como punto de descanso para comerciantes que cruzan el desierto, Rainbase
-              se ganó fama por sus casas de juego y su vida nocturna. Su casino más célebre
-              funcionó también, durante un tiempo, como fachada de operaciones muy poco
-              legales.</p>
-          </div>
-        </article>
-
-        <article class="tarjeta">
-          <img class="tarjeta-imagen placeholder" src="placeholder.svg" alt="Yuba">
-          <div class="tarjeta-contenido">
-            <h3>Yuba, el oasis que resistió</h3>
-            <p>Construida alrededor de un oasis, Yuba fue durante mucho tiempo una parada
-              obligada para los viajeros del desierto occidental. Cuando una larga sequía secó
-              su fuente de agua, buena parte de sus habitantes debió abandonarla.</p>
-          </div>
-        </article>
-
-        <article class="tarjeta">
-          <img class="tarjeta-imagen placeholder" src="placeholder.svg" alt="Erumalu">
-          <div class="tarjeta-contenido">
-            <h3>Erumalu, la ciudad que se apagó</h3>
-            <p>Antes próspera, Erumalu quedó reducida a ruinas cubiertas de arena tras años sin
-              lluvia. Sus restos son hoy el ejemplo más claro de cómo la falta de agua puede
-              borrar por completo a una comunidad entera.</p>
-          </div>
-        </article>
-
-        <article class="tarjeta">
-          <img class="tarjeta-imagen placeholder" src="placeholder.svg" alt="Desierto de Sandora">
-          <div class="tarjeta-contenido">
-            <h3>El desierto de Sandora</h3>
-            <p>La mayor parte del interior del reino está ocupada por este desierto de dunas y
-              caminos escasos. Cruzarlo a pie entre dos ciudades puede llevar más de un día, y
-              su fauna —desde aves carroñeras hasta grandes lagartos— lo vuelve tan hostil como
-              impredecible.</p>
-          </div>
-        </article>
-
-        <article class="tarjeta">
-          <img class="tarjeta-imagen placeholder" src="placeholder.svg" alt="Río Sandora">
-          <div class="tarjeta-contenido">
-            <h3>El río Sandora</h3>
-            <p>Es la única fuente de agua permanente en gran parte del territorio y divide al
-              reino en dos mitades, este y oeste. Su curso condicionó, desde siempre, dónde
-              podían crecer las ciudades y por dónde debían moverse las rutas comerciales.</p>
-          </div>
-        </article>
-
-        <article class="tarjeta">
-          <img class="tarjeta-imagen placeholder" src="placeholder.svg" alt="Tumba de los Reyes">
-          <div class="tarjeta-contenido">
-            <h3>La Tumba de los Reyes</h3>
-            <p>Bajo Alubarna se esconde este antiguo recinto funerario, custodiado durante
-              siglos por la familia real. En su interior se conserva un poneglifo, una de las
-              escasas piedras talladas que guardan fragmentos de la historia olvidada del
-              mundo.</p>
-          </div>
-        </article>
-
+  <section class="page page-city">
+    <div class="container page-grid">
+      <div><span class="eyebrow">CONOCÉ EL DESTINO</span>
+        <h1>Alabasta:<br><em>historia y esencia.</em></h1>
+        <p>Una gran ciudad del desierto donde la vida urbana, los oasis, el comercio y el paisaje natural forman parte
+          de una misma identidad.</p>
       </div>
-    </section>
+      <div class="page-photo city-photo" role="img" aria-label="Vista de la ciudad de Alabasta"></div>
+    </div>
+  </section>
 
-    <section id="costumbres" class="seccion-introduccion">
-      <h2>Costumbres</h2>
-      <p>La arquitectura de Alabasta combina construcciones talladas en piedra con estilos
-        cercanos a lo árabe y lo morisco, aunque cada ciudad conserva variaciones propias. La
-        vestimenta tradicional está pensada para el calor: telas livianas y transpirables que
-        protegen la piel del sol y de la arena en movimiento. Durante las festividades, la
-        gente celebra la llegada de la lluvia y la resistencia frente a la sequía con música,
-        procesiones por las calles de Alubarna y comidas típicas compartidas en comunidad.</p>
-      <p>La familia real mantiene además costumbres propias de su cargo: guardias de confianza
-        que velan por la seguridad del palacio, juramentos de lealtad hacia el pueblo y la
-        obligación de representar a Alabasta ante el resto de los reinos aliados en las
-        reuniones internacionales del Gobierno Mundial.</p>
-    </section>
+  <section class="section history-story">
+    <div class="container history-layout">
+      <aside class="history-index">
+        <span class="eyebrow">HISTORIA</span>
+        <h2>Una ciudad marcada<br>por el <em>desierto.</em></h2>
+        <div class="accent-line"></div>
+        <p>Alabasta se presenta en este sitio como una única gran ciudad con zonas urbanas, costeras, históricas y
+          naturales.</p>
+      </aside>
+      <div class="history-copy">
+        <p class="lead">Alabasta es una extensa ciudad-reino caracterizada por sus grandes zonas desérticas, sus centros
+          urbanos y la variedad de paisajes que aparecen a lo largo de su territorio.</p>
+        <p>A pesar de las difíciles condiciones del clima, Alabasta logró desarrollarse como un importante centro
+          político y comercial. Sus calles, mercados, plazas y grandes construcciones concentran gran parte de la
+          actividad cotidiana, mientras que las rutas del desierto conectan los distintos sectores de la ciudad.</p>
+        <p>En el centro urbano se encuentra el <strong>Palacio Real</strong>, una de las construcciones más importantes
+          de Alabasta. Sus cúpulas, torres y amplios patios representan la arquitectura monumental de la ciudad. A su
+          alrededor se extienden plazas, comercios y una gran avenida comercial con puestos de alimentos, telas,
+          especias y productos artesanales.</p>
+        <p>La ciudad también posee una importante <strong>zona portuaria y costera</strong>. Allí, los barcos, mercados,
+          puestos de comida y espacios junto al mar crean un ambiente diferente al de las zonas interiores. El puerto
+          permite observar el movimiento comercial y la llegada de viajeros procedentes de otras regiones.</p>
+        <p>Otro sector destacado es el <strong>distrito de entretenimiento</strong>, reconocido por sus grandes
+          edificios, restaurantes, comercios y un enorme casino. Esta zona funciona como punto de encuentro y también
+          como punto de partida para quienes desean recorrer el desierto.</p>
+        <p>El agua es uno de los elementos más importantes en la historia de Alabasta. Los <strong>oasis</strong>
+          permitieron el crecimiento de comunidades y zonas de descanso en medio de la arena. Algunas áreas históricas
+          conservan restos de antiguos asentamientos que fueron afectados por largos períodos de sequía, mostrando cómo
+          la falta de agua puede transformar completamente una comunidad.</p>
+        <p>En los sectores más tranquilos aparecen barrios pequeños y calles adaptadas al clima del desierto. Sus
+          comercios ofrecen agua, alimentos y productos básicos para viajeros y habitantes, mientras que los espacios de
+          sombra se convierten en puntos esenciales durante las horas de mayor temperatura.</p>
+        <p>Más allá de las zonas urbanas, el <strong>Desierto de Alabasta</strong> ocupa una parte fundamental del
+          paisaje. Sus dunas, caminos y rutas comerciales influyen directamente en la forma de vida de la ciudad. Los
+          oasis funcionan como puntos estratégicos de descanso y abastecimiento.</p>
+        <p>El <strong>río Sandora</strong> completa este paisaje. En una región dominada por la arena, su presencia
+          genera vegetación y zonas de descanso. Las historias locales hablan del enorme Guardián de Sandora que habita
+          en las zonas más profundas, por lo que algunos sectores del río son considerados peligrosos.</p>
+        <p>Hoy, Alabasta combina todas estas facetas en un mismo destino: política, comercio, patrimonio, costa,
+          entretenimiento, naturaleza e historia. El contraste entre la arena dorada, el agua turquesa, los grandes
+          edificios y los espacios públicos es lo que define su identidad.</p>
+        <a class="btn dark" href="lugares.html">Ver lugares y actividades →</a>
+      </div>
+    </div>
+  </section>
 
-  </main>
+  <section class="section strong-sand">
+    <div class="container">
+      <span class="eyebrow">IDENTIDAD DE ALABASTA</span>
+      <h2>Una sola ciudad.<br><em>Muchas experiencias.</em></h2>
+      <div class="topic-grid identity-grid">
+        <article><b>01</b>
+          <h3>Centro histórico</h3>
+          <p>Palacio Real, grandes plazas, arquitectura monumental y espacios públicos.</p>
+        </article>
+        <article><b>02</b>
+          <h3>Comercio</h3>
+          <p>Mercados, avenida comercial, productos artesanales, especias y alimentos.</p>
+        </article>
+        <article><b>03</b>
+          <h3>Costa y puerto</h3>
+          <p>Barcos, mercados portuarios, playa, palmeras y espacios de descanso.</p>
+        </article>
+        <article><b>04</b>
+          <h3>Entretenimiento</h3>
+          <p>Casino, restaurantes, comercios y grandes construcciones urbanas.</p>
+        </article>
+        <article><b>05</b>
+          <h3>Oasis e historia</h3>
+          <p>Agua, vegetación, antiguas comunidades y restos afectados por la sequía.</p>
+        </article>
+        <article><b>06</b>
+          <h3>Naturaleza</h3>
+          <p>Desierto, dunas, rutas comerciales y el río Sandora.</p>
+        </article>
+      </div>
+    </div>
+  </section>
 
-  <footer class="pie-pagina">
-    <p>Alabasta · Un reino de arena y memoria</p>
+  <footer>
+    <div class="container footer-grid">
+      <div><a class="brand footer-brand" href="index.html"><img src="img/logo-alabasta.png"
+            alt="Logo de Alabasta"><b>ALABASTA<span>.</span></b></a>
+        <p>Un destino de arena, oasis, cultura y aventura.</p>
+      </div>
+      <div><b>Explorá</b><a href="index.html">Inicio</a><a href="ciudad.html">Historia</a><a href="lugares.html">Lugares
+          y actividades</a></div>
+      <div><b>Planificá</b><a href="index.html#info">Información útil</a><a href="contacto.html">Contacto</a><a
+          href="contacto.html">Consultas</a></div>
+      <div><b>Seguinos</b><a href="#">Instagram</a><a href="#">Facebook</a><a href="#">X / Twitter</a></div>
+    </div>
+    <div class="container bottom">© 2026 Alabasta Turismo · Proyecto ficticio inspirado en One Piece</div>
   </footer>
+  <button id="topBtn">↑</button>
+  <div id="toast"></div>
+  <script src="script.js"></script>
+</body>
+
+</html>
 
 </body>
 </html>
