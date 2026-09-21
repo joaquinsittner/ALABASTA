@@ -45,7 +45,7 @@ index.html
 ciudad.html
 lugares.html
 contacto.html
-estilos.css
+style.css
 script.js
 imágenes
 
