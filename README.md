@@ -41,16 +41,13 @@ gastronómicas y de entretenimiento.
 - Imágenes y recursos gráficos personalizados
 
 📁 Estructura del proyecto
-
-alabasta-web/
-├── index.html
-├── ciudad.html
-├── lugares.html
-├── contacto.html
-├── style.css
-├── script.js
-└── img/
-    └── imágenes utilizadas por el sitio
+index.html
+ciudad.html
+lugares.html
+contacto.html
+estilos.css
+script.js
+imágenes
 
 🚀 Cómo ejecutar el proyecto
 
