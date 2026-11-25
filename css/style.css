@@ -1943,3 +1943,31 @@ body.modo-oscuro .activity-category-grid article span {
 }
 
 
+
+/* ===== AJUSTES DE CONTRASTE EN MODO OSCURO ===== */
+body.modo-oscuro .bootstrap-card .card-title,
+body.modo-oscuro .bootstrap-card h3,
+body.modo-oscuro .bootstrap-card .h5 {
+  color: #f1e8dc !important;
+}
+
+body.modo-oscuro .newsletter .eyebrow {
+  color: #fff0b5 !important;
+}
+
+body.modo-oscuro .newsletter input {
+  background: #f3e7d3 !important;
+  color: #33271f !important;
+  border-radius: 6px 0 0 6px;
+  padding-left: 12px;
+}
+
+body.modo-oscuro .newsletter input::placeholder {
+  color: #665746 !important;
+  opacity: 1;
+}
+
+body.modo-oscuro .newsletter button {
+  color: #fff8e8 !important;
+}
+
