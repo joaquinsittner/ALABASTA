@@ -1,4 +1,5 @@
 
+
 /* ===== VARIABLES Y ESTILOS GENERALES ===== */
 :root {
   --gold:#C9913D;
@@ -217,13 +218,13 @@ a {
   color:#fffddd
 }
 .mega-ciudad {
-  background-image:linear-gradient(135deg,rgba(24,183,194,.28),rgba(59,42,34,.15)),url('img/menu-ciudad.jpg'),linear-gradient(135deg,var(--turq),var(--sand-deep))
+  background-image:linear-gradient(135deg,rgba(24,183,194,.28),rgba(59,42,34,.15)),url('imagenes/menu-ciudad.jpg'),linear-gradient(135deg,var(--turq),var(--sand-deep))
 }
 .mega-lugares {
-  background-image:linear-gradient(135deg,rgba(230,161,27,.18),rgba(59,42,34,.15)),url('img/menu-lugares.jpg'),linear-gradient(135deg,var(--gold),var(--brown))
+  background-image:linear-gradient(135deg,rgba(230,161,27,.18),rgba(59,42,34,.15)),url('imagenes/menu-lugares.jpg'),linear-gradient(135deg,var(--gold),var(--brown))
 }
 .mega-aventura {
-  background-image:linear-gradient(135deg,rgba(24,183,194,.18),rgba(59,42,34,.2)),url('img/menu-actividades.jpg'),linear-gradient(135deg,var(--blue),var(--gold))
+  background-image:linear-gradient(135deg,rgba(24,183,194,.18),rgba(59,42,34,.2)),url('imagenes/menu-actividades.jpg'),linear-gradient(135deg,var(--blue),var(--gold))
 }
 .compact-group {
   position:relative
@@ -287,7 +288,7 @@ a {
 .hero-media {
   position:absolute;
   inset:0;
-  background-image:linear-gradient(90deg,rgba(8,122,134,.15),rgba(59,42,34,.05)),url('img/hero-alabasta.jpg');
+  background-image:linear-gradient(90deg,rgba(8,122,134,.15),rgba(59,42,34,.05)),url('imagenes/hero-alabasta.jpg');
   background-size:cover;
   background-position:center;
   opacity:.32
@@ -549,13 +550,13 @@ a {
   color:#fff0b4
 }
 .card-desierto {
-  background-image:url('img/alabasta-desierto.jpg'),linear-gradient(135deg,#E5A237,#8C5A36)
+  background-image:url('imagenes/alabasta-desierto.jpg'),linear-gradient(135deg,#E5A237,#8C5A36)
 }
 .card-oasis {
-  background-image:url('img/alabasta-oasis.jpg'),linear-gradient(135deg,#1ABAC4,#E4B962)
+  background-image:url('imagenes/alabasta-oasis.jpg'),linear-gradient(135deg,#1ABAC4,#E4B962)
 }
 .card-cultura {
-  background-image:url('img/alabasta-cultura.jpg'),linear-gradient(135deg,#168B9A,#C48637)
+  background-image:url('imagenes/alabasta-cultura.jpg'),linear-gradient(135deg,#168B9A,#C48637)
 }
 
 /* ===== CONTENIDO Y COMPONENTES ===== */
@@ -650,7 +651,7 @@ a {
   overflow:hidden
 }
 .feature-photo {
-  background-image:linear-gradient(rgba(7,122,134,.2),rgba(59,42,34,.15)),url('img/alabasta-destacada.jpg'),linear-gradient(135deg,var(--turq),var(--gold))
+  background-image:linear-gradient(rgba(7,122,134,.2),rgba(59,42,34,.15)),url('imagenes/alabasta-destacada.jpg'),linear-gradient(135deg,var(--turq),var(--gold))
 }
 .feature-photo span,.page-photo span {
   background:rgba(59,42,34,.7);
@@ -774,15 +775,15 @@ a {
   min-height:420px
 }
 .city-photo {
-  background-image:url('img/ciudad-hero.jpg'),linear-gradient(135deg,var(--turq),var(--gold))
+  background-image:url('imagenes/ciudad-hero.jpg'),linear-gradient(135deg,var(--turq),var(--gold))
 }
 .places-photo {
-  background-image:url('img/lugares-hero.jpg'),linear-gradient(135deg,var(--gold),var(--turq))
+  background-image:url('imagenes/lugares-hero.jpg'),linear-gradient(135deg,var(--gold),var(--turq))
 }
 
 /* ===== FORMULARIOS Y PIE DE PÁGINA ===== */
 .contact-photo {
-  background-image:url('img/contacto-hero.jpg'),linear-gradient(135deg,var(--turq-dark),var(--gold))
+  background-image:url('imagenes/contacto-hero.jpg'),linear-gradient(135deg,var(--turq-dark),var(--gold))
 }
 
 /* ===== TARJETAS Y ACTIVIDADES ===== */
@@ -1288,34 +1289,34 @@ footer {
   margin:5px 0
 }
 .attraction-palacio .attraction-media {
-  background-image:url('img/palacio-real.jpg'),linear-gradient(135deg,var(--gold),var(--brown))
+  background-image:url('imagenes/palacio-real.jpg'),linear-gradient(135deg,var(--gold),var(--brown))
 }
 .attraction-mercado .attraction-media {
-  background-image:url('img/mercados.jpg'),linear-gradient(135deg,#D88A27,var(--gold-2))
+  background-image:url('imagenes/mercados.jpg'),linear-gradient(135deg,#D88A27,var(--gold-2))
 }
 .attraction-puerto .attraction-media {
-  background-image:url('img/puerto-playa.jpg'),linear-gradient(135deg,var(--turq),#6ADCE0)
+  background-image:url('imagenes/puerto-playa.jpg'),linear-gradient(135deg,var(--turq),#6ADCE0)
 }
 .attraction-casino .attraction-media {
-  background-image:url('img/distrito-entretenimiento.jpg'),linear-gradient(135deg,var(--brown),var(--gold))
+  background-image:url('imagenes/distrito-entretenimiento.jpg'),linear-gradient(135deg,var(--brown),var(--gold))
 }
 .attraction-oasis .attraction-media {
-  background-image:url('img/oasis.jpg'),linear-gradient(135deg,var(--turq-dark),var(--turq-2))
+  background-image:url('imagenes/oasis.jpg'),linear-gradient(135deg,var(--turq-dark),var(--turq-2))
 }
 .attraction-ruinas .attraction-media {
-  background-image:url('img/ruinas.jpg'),linear-gradient(135deg,#A86A38,var(--sand))
+  background-image:url('imagenes/ruinas.jpg'),linear-gradient(135deg,#A86A38,var(--sand))
 }
 .attraction-barrio .attraction-media {
-  background-image:url('img/barrios-desierto.jpg'),linear-gradient(135deg,var(--sand-deep),#E7B568)
+  background-image:url('imagenes/barrios-desierto.jpg'),linear-gradient(135deg,var(--sand-deep),#E7B568)
 }
 .attraction-desierto .attraction-media {
-  background-image:url('img/desierto-alabasta.jpg'),linear-gradient(135deg,var(--gold),#B96E2E)
+  background-image:url('imagenes/desierto-alabasta.jpg'),linear-gradient(135deg,var(--gold),#B96E2E)
 }
 .attraction-rio .attraction-media {
-  background-image:url('img/rio-sandora.jpg'),linear-gradient(135deg,var(--blue),var(--turq-2))
+  background-image:url('imagenes/rio-sandora.jpg'),linear-gradient(135deg,var(--blue),var(--turq-2))
 }
 .attraction-gastro .attraction-media {
-  background-image:url('img/gastronomia-plazas.jpg'),linear-gradient(135deg,#EAAE36,var(--turq))
+  background-image:url('imagenes/gastronomia-plazas.jpg'),linear-gradient(135deg,#EAAE36,var(--turq))
 }
 .activity-category-grid {
   display:grid;
