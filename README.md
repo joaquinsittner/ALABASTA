@@ -1,84 +1,77 @@
-🏜️ Alabasta Turismo
+🏝️ Alabasta Turismo
 
-Sitio web turístico ficticio inspirado en Alabasta, creado como
-proyecto web para presentar la ciudad, sus lugares, paisajes y
-principales actividades.
+🌍 Descripción del proyecto
 
-El sitio combina una estética desértica con tonos arena, dorados y
-turquesa, utilizando imágenes realistas para representar distintos
-sectores de Alabasta.
+Alabasta Turismo es un sitio web turístico inspirado en el universo de One Piece, específicamente en el reino de Alabasta. El proyecto propone una reinterpretación de este universo como un destino turístico, presentando sus paisajes, atractivos, historia, actividades y experiencias.
 
-🌐 Secciones
+La idea surgió a partir de la elección grupal de un universo ficticio sobre el cual desarrollar el sitio web. Alabasta fue seleccionado por la variedad de sus paisajes y lugares, lo que permitió crear una propuesta turística que reúne diferentes ambientes y atractivos dentro de una misma ciudad.
 
-- Inicio: presentación general del sitio.
+🎯 El objetivo principal fue desarrollar un sitio web que combine contenido informativo con una presentación visual atractiva, aplicando los conocimientos adquiridos en el desarrollo web.
 
-- Explorar / Ciudad: información y recorrido por la ciudad.
+🗺️ Secciones del sitio
 
-- Historia: contenido relacionado con Alabasta.
+El sitio se encuentra dividido en diferentes páginas que permiten organizar el contenido y facilitar la navegación:
 
-- Lugares: galería de sitios destacados, como el desierto, oasis,
-ruinas, mercados, puerto, Río Sandora y otros puntos de interés.
+🏠 Inicio: presentación del destino turístico, contenido destacado y navegación principal.
 
-- Planificá: sección orientada a organizar una visita.
+🏛️ Ciudad: información sobre la historia, identidad y características de Alabasta.
 
-- Contacto: información y medios de contacto.
+🏜️ Lugares y actividades: descripción de los principales atractivos turísticos, lugares de interés y actividades disponibles.
 
-🖼️ Lugares destacados
+📩 Contacto: formulario de contacto destinado a los visitantes.
 
-Entre los paisajes y lugares representados se encuentran el Palacio
-Real, los mercados, el puerto, el desierto de Alabasta, las ruinas
-antiguas, el oasis, el Río Sandora, barrios de la ciudad y zonas
-gastronómicas y de entretenimiento.
+💻 Tecnologías utilizadas
 
-🛠️ Tecnologías utilizadas
+🌐 HTML5: utilizado para estructurar el contenido y organizar las diferentes secciones y páginas.
 
-- HTML5
+🎨 CSS3: utilizado para definir el diseño visual, la paleta de colores, tipografías, distribución de elementos, efectos y adaptación a diferentes dispositivos.
 
-- CSS3
+⚙️ JavaScript: utilizado para incorporar funcionalidades interactivas, como el modo oscuro, la validación de formularios, los mensajes de confirmación y el botón de regreso al inicio.
 
-- JavaScript
+🧩 Bootstrap 5: utilizado como framework CSS para facilitar la implementación de componentes y diseños responsive, como barras de navegación, grillas, tarjetas y carruseles.
 
-- Imágenes y recursos gráficos personalizados
+🎨 Diseño y experiencia de usuario
 
-📁 Estructura del proyecto
-index.html
-ciudad.html
-lugares.html
-contacto.html
-style.css
-script.js
-imágenes
+El diseño visual se desarrolló tomando como referencia la identidad de Alabasta, utilizando una paleta de colores inspirada en tonos arena, dorados y turquesas, relacionados con el ambiente desértico y la estética del reino.
 
-🚀 Cómo ejecutar el proyecto
+🖼️ Se incorporaron imágenes para representar los diferentes paisajes y atractivos turísticos, buscando lograr una experiencia visual coherente con la temática del proyecto. También se implementaron elementos decorativos, tarjetas, carruseles y diferentes recursos de navegación.
 
-No requiere instalación ni dependencias adicionales.
+🌙 El sitio cuenta, además, con un modo oscuro, que permite modificar la apariencia visual y ofrece una alternativa de visualización al usuario.
 
-1. Descargá o cloná el repositorio.
+✨ Funcionalidades
 
-2. Abrí la carpeta del proyecto.
+📱 Navegación entre las distintas páginas del sitio.
 
-3. Abrí index.html con cualquier navegador web moderno.
+📐 Diseño responsive adaptable a diferentes tamaños de pantalla.
 
-También podés utilizar Live Server en Visual Studio Code para
-visualizar los cambios durante el desarrollo.
+🌙 Modo oscuro y modo claro.
 
-📱 Diseño
+💾 Persistencia de la preferencia de visualización mediante localStorage.
 
-El sitio utiliza un diseño visual inspirado en una ciudad desértica, con
-fotografías panorámicas, tarjetas de lugares y una paleta pensada para
-integrarse con los paisajes de Alabasta.
+📝 Formularios con validación de datos.
 
-Las imágenes incluyen atributos alt para mejorar la accesibilidad y
-describir su contenido cuando no puedan visualizarse.
+🔔 Mensajes de confirmación mediante notificaciones tipo toast.
 
-📌 Estado del proyecto
+⬆️ Botón para regresar al inicio de la página.
 
-Proyecto en desarrollo. El diseño, contenido y distintas secciones
-pueden continuar recibiendo mejoras.
+🃏 Uso de tarjetas y carruseles para presentar contenido turístico.
 
-⚠️ Aclaración
+👥 Integrantes
 
-Este es un proyecto ficticio realizado con fines educativos.
-Alabasta y las referencias relacionadas con One Piece pertenecen a sus
-respectivos autores y titulares de derechos. Este sitio no es oficial ni
-está afiliado con ellos.
+👨‍💻 Joaquín Sittner: desarrollo de la página de inicio.
+
+👨‍💻 Lucio Mariotti: desarrollo de la página Ciudad.
+
+👨‍💻 Lautaro Chilano: desarrollo de la página Contacto.
+
+👨‍💻 David Villalba: desarrollo de la página Lugares y Actividades.
+
+🎓 Institución
+
+🏫 Universidad Nacional de Hurlingham (UNAHUR)
+
+📚 Carrera: Licenciatura en Informática
+
+🚀 Proyecto académico
+
+El proyecto fue desarrollado de manera grupal en el marco de la carrera de Licenciatura en Informática de la Universidad Nacional de Hurlingham, con el objetivo de aplicar conocimientos de desarrollo web, diseño, estructuración de contenido, interactividad y adaptación responsive mediante HTML, CSS, JavaScript y Bootstrap.
